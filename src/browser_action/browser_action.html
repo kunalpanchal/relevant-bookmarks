@@ -1,0 +1,36 @@
+<!doctype html>
+
+<head>
+	<link rel="stylesheet" href="browser_action.css">
+</head>
+
+<body>
+	<div id="main-relevant-bookmarks-app-wrapper">
+		<h1>Relevant Bookmarks</h1>
+		<div id="main-relevant-bookmarks-app"></div>
+		<div id="main-relevant-bookmarks-app-footer">
+			<a href="https://github.com/kunalpanchal/relevant-bookmarks">GitHub</a>
+			<div id="checkbox-wrapper">
+				<label for="checkbox-show-urls">Show URLs</label>
+				<input type="checkbox" id="checkbox-show-urls" name="checkbox-show-urls">
+			</div>
+			<div>
+				<label for="checkbox-show-urls">Max</label>
+				<select id="selectbox-max-bms">
+					<option value="0">--</option>
+					<option value="5">5</option>
+					<option value="10">10</option>
+					<option value="15">15</option>
+				</select>
+			</div>
+			<div>
+				<button id='decrease-font-size'>A-</button>
+				<button id='increase-font-size'>A+</button>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="browser_action.js"></script>
+</body>
+
+</html>

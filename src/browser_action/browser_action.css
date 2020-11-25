@@ -1,0 +1,59 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#main-relevant-bookmarks-app-wrapper {
+    background: whitesmoke;
+    max-height: 800px;
+    width: 400px;
+    font-family: Helvetica, Ubuntu, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+#main-relevant-bookmarks-app-wrapper h1 {
+    padding: 0px 10px;
+}
+
+#main-relevant-bookmarks-app {
+    padding: 12px;
+    padding-bottom: 50px;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+}
+
+#main-relevant-bookmarks-app a {
+    text-decoration: none;
+}
+
+#main-relevant-bookmarks-app-footer {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background: #f9f9f9;
+}
+
+#increase-font-size {
+    font-size: 18px;
+    margin-left: 2px;
+    margin-right: 20px;
+}
+
+#decrease-font-size {
+    font-size: 12px;
+}
+
+#checkbox-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.bookmark {
+    margin-bottom: 12px;
+}
