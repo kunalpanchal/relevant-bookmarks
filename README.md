@@ -28,4 +28,4 @@ As mentioned in the [manifest.json](https://github.com/kunalpanchal/relevant-boo
 - Maximum bookmarks to show.
 
 
-Visit [Chrome WebStore](https://chrome.google.com/webstore/detail/relevant-bookmarks/jjdfcopklimoeoneklaopogaghhhlmed) to downlaod this extension. To know more about how the bookmarks are categorized as relevant, read the [main logic](https://github.com/kunalpanchal/relevant-bookmarks/blob/main/src/browser_action/browser_action.js#L72) for this extension.
+Visit [Chrome WebStore](https://chrome.google.com/webstore/detail/relevant-bookmarks/jjdfcopklimoeoneklaopogaghhhlmed) to downlaod this extension. To know more about how the bookmarks are categorized as relevant, read the [main logic](https://github.com/kunalpanchal/relevant-bookmarks/blob/main/src/browser_action/browser_action.js#L72-L101) for this extension.
